@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="payment.css">
+    <title>payment form</title>
+</head>
+<body>
+    <div class = "container">
+    <form action="">
+        <h1 class="main_heading">Payment Form</h1>
+        <h2>Contact Information</h2>
+        <p>* indicate required fields</p>
+        <p>*Name: <input type="text" name="name" required placeholder="Mahnoor Sajid"></p> 
+    <fieldset>
+        <legend>Gender</legend>
+        <p>
+            Male <input type="Radio" name="gender" id="male">
+            Female <input type="Radio" name="gender" id="female">
+        </p>
+    </fieldset>
+    <p> Address: <textarea name="address" id="adress" cols="100" rows="8" placeholder="Enter Your Address"></textarea></p>
+    <p> Email: <input type="email" name="email" id="email" placeholder="bscs19038@itu.edu.pk"></email></p>
+   <p>  PinCode: <input type="number" name="number" id="number" placeholder="1234"></p>
+
+   <h2>Payment Information</h2>
+   <p>  Card type:
+       <select name ="Card_Type" id="Card_Type">
+       <option value="">---Select a card type---</option>
+       <option value="Visa">Visa</option>
+       <option value="Master Card">Master Card</option>
+       <option value="Rupay">Rupay</option>
+    </select>
+   </p>
+   <p>
+       Card Number<input type="number" name="card_number" id="card_number" placeholder="1234">
+   </p>
+   <p>
+       Expiration Date: <input type="date" name="exp_date" id="exp_date"> 
+   </p>
+    <p>
+        CVV<input type="password" name="cvv" id="cvv">
+    </p>
+    <input type="submit" value="Pay Now">
+    </form>
+</div>
+</body>
+</html>
