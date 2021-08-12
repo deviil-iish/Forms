@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ContactForm.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <title>Contact Form</title>
+</head>
+<body>
+    <div class ="container">
+        <form action="">
+            <h1 class="main_heading"> Blood Donor Registration</h1>
+            <hr>
+            <p>Name: <input type="text" name="name" placeholder="Your name"></p>  
+            <!-- <p>Blood Group:<input type="text" name="bloodgroup" ></p> -->
+            <label for="bg">Blood Group:</label>
+            <select id="bg" name="bg">
+           <option value="-1">Select</option>
+            <option value="A+">A+</option>
+            <option value="B+">B+</option>
+             <option value="A-">A-</option>
+             <option value="B-">B-</option>
+             <option value="O+">O+</option>
+             <option value="O-">O-</option>
+             <option value="AB+">AB+</option>
+             <option value="AB-">AB-</option>
+                </select>
+            <p>Location: <input type="text" name="Location" placeholder="Your Address"></p>
+            <p>Contact Number:<input type="text" name="cn" placeholder="03316689805"></p>
+            <p>City:<input type="text" name="city" placeholder="Your city"></p>
+            <p>Last donation date: <input type="date" name="date"></p>
+            <p>CNIC:<input type="text" name="cnic" placeholder="33402-8127342-1"></p>
+            <input type="submit" value="Submit">
+        </form>
+
+
+
+    </div>
+</body>
+</html>
