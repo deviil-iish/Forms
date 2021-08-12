@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax website</title>
+</head>
+<style>
+    body{
+    margin: auto;
+    width: 100vw;
+    height: 100vh;
+    }
+    .parallax1
+    {
+
+        background-image:url("parallax.jpg");
+        min-height: 600px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+    .parallax2
+    {
+
+        background-image:url("parallax2.jpg");
+        min-height: 420px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+    .parallax3
+    {
+
+        background-image:url("parallax3.jpg");
+        min-height: 400px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+    .title1{
+     margin: 0 auto;
+     background: gray;
+     text-align: center;
+     position: fixed;
+     top: 40%;
+     left: 30%;
+     padding: 25px;
+     font-size: 40px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     position: absolute;
+    }
+
+
+</style>
+<body>
+
+    <div class="parallax1">
+        <h3 class="title1">PARALLAX WEBSITE</h3>
+    </div>
+
+    <div class="Text1">
+        <h4>Section one</h4>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, laudantium, quibusdam? Nobis, 
+        delectus, commodi, fugit amet tempora facere dolores nisi facilis consequatur, odio hic minima nostrum. 
+        Perferendis eos earum praesentium, blanditiis sapiente labore aliquam ipsa architecto vitae. 
+        Minima soluta temporibus voluptates inventore commodi cumque esse suscipit optio aliquam et, dolorem a 
+        cupiditate nihil fuga laboriosam fugiat placeat dignissimos! Unde eveniet placeat quisquam blanditiis 
+        voluptatem doloremque fugiat dolor repellendus ratione in. Distinctio provident dolorem modi cumque illo 
+        enim quidem tempora deserunt nostrum voluptate labore repellat quisquam quasi 
+        cum suscipit dolore ab consequuntur, ad porro earum temporibus. Laborum ad temporibus ex, omnis!
+    </div>
+
+    <div class="parallax2"></div>
+
+    <div class="Text2">
+        <h4>Section Two</h4>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, laudantium, quibusdam? Nobis, delectus, 
+        commodi, fugit amet tempora facere dolores nisi facilis consequatur, odio hic minima nostrum. Perferendis eos 
+        earum praesentium, blanditiis sapiente labore aliquam ipsa architecto vitae. Minima soluta temporibus 
+        voluptates inventore commodi cumque esse suscipit optio aliquam et, dolorem a cupiditate nihil fuga laboriosam 
+        fugiat placeat dignissimos! 
+        Unde eveniet placeat quisquam blanditiis voluptatem doloremque fugiat dolor repellendus ratione in.
+    </div>
+
+    <div class="parallax3"></div>
+
+    <div class="Text3">
+        <h4>Section Three</h4>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, laudantium, quibusdam? Nobis, 
+        delectus, commodi, fugit amet tempora facere dolores nisi facilis consequatur, odio hic minima nostrum. 
+        Perferendis eos earum praesentium, blanditiis sapiente labore aliquam ipsa architecto vitae. Minima soluta 
+        temporibus voluptates inventore commodi cumque esse suscipit optio aliquam et, dolorem a cupiditate nihil fuga 
+        laboriosam fugiat placeat dignissimos! Unde eveniet placeat quisquam blanditiis voluptatem doloremque fugiat 
+        dolor repellendus ratione in.
+    </div>
+
+    <div class="parallax1">
+        <h3 class="title2">TRAVERSY MEDIA</h3>
+    </div>
+
+
+
+
+
+
+
+    
+</body>
+</html>
