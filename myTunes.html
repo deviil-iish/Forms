@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>myTunes</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+</head>
+<style>
+  .navbar{
+    padding: 2px;
+
+  }
+  nav .navbar-nav li a{
+    color: #eee !important;
+
+  }
+  body{
+    font-family: PT Sans !important;
+  }
+  .navbar-nav .nav-link.active,
+ .navbar-nav .nav-link:hover 
+ {
+  background: gray;  
+}
+.front{
+  color:white;
+   /* margin: 0;
+    padding: 0; */
+    background: url('mytunesbg1.jpeg') no-repeat center/cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow-y: hidden;
+}
+.heading1{
+
+    display: block;
+    font-size: 4em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 3.6;
+    padding-bottom: 0px;
+
+
+}
+.heading2{
+  display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-left: 10em;
+    padding-top: 0em;
+    font-size: 2em;
+    
+
+}
+.para{
+  width: 90%;
+  text-align: center;
+  padding-left: 20%;
+
+
+}
+section{
+  display: block;
+}
+.containerx{
+  background: #252529;
+  color: white;
+   max-width: 1180px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 3rem;
+}
+
+.section{
+  padding:2rem 0;
+}
+#music{
+  background: #252529;
+  padding: 20px;
+}
+.sechead2 ,.para2{
+padding:18px;
+}
+.para3{
+padding-top: 25px;
+}
+.btn-danger{
+  background: #b90415;
+  padding: 15px;
+}
+.img1{
+  text-align: center;
+  width: 100%;
+}
+.container{
+  color: white;
+  text-align: center;
+  font-size:larger;
+}
+#sec2{
+  color: white;
+  background: url('mytunesbg3.jpeg') no-repeat bottom/cover;
+  width: 100%;
+  position: relative;
+  padding: 10rem 0;
+  height: 100%;
+}
+.para4{
+  padding-top: 35px;
+}
+#sec3{
+  background-color: #f4f4f4;
+}
+.img3{
+  width: 45%;
+  position: relative;
+  height: 45%;
+  padding-top: 30px;
+  padding-left: 80px;
+}
+.sechead3{
+  float: right;
+  position:relative; 
+  right:41.5%; 
+  top:60px;
+}
+ .para5{
+ width:45%;
+ position: relative;
+ left: 50%;
+ bottom: 17rem;
+}
+
+.para6{
+ text-align: right;
+ right:25%; 
+ position: relative;
+bottom: 17rem;
+
+} 
+.text-secondary{
+  text-align: right;
+  position: relative;
+  left: 50%;
+  bottom: 17rem;
+}
+.footer{
+  
+  width: 100%;
+  height: 15%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  color: white;
+  background-color: #252529;
+  clear: both;
+  padding-bottom: 25px;
+  padding-top: 10px;
+}
+a{
+  color:white;
+  padding: 20px;
+}
+.l1
+{
+  padding-top: 40px;
+  list-style-type: none;
+  text-align: left;
+}
+.col-sm{
+  padding:20px;
+  text-align: left;
+}
+</style>
+
+<body>
+  <div class="container-fixed">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+
+        <!-- Links -->
+        <ul class="navbar-nav" >
+          <li class="nav-item px-2" >
+            <a class="nav-link" href="#">myTunes</a>
+          </li>
+          <li class="nav-item px-3">
+            <a class="nav-link" href="#">Overview</a>
+          </li>
+          <li class="nav-item px-3">
+            <a class="nav-link" href="#">Music</a>
+          </li>
+          <li class="nav-item px-3">
+            <a class="nav-link" href="#">Video</a>
+          </li>
+          <li class="nav-item px-3">
+            <a class="nav-link" href="#">Gift Cards</a>
+          </li>
+        </ul>
+    </nav>
+    <div class="front">
+      <h1 class="heading1">myTunes</h1>
+      <h2 class="heading2">Your music, movies, and TV shows take center stage.</h2>
+      <p class="para">myTunes is the best way to organize and enjoy the music, movies, and TV shows you already have — and shop for the ones you want. 
+        Enjoy all the entertainment myTunes has to offer on your Mac and PC.</p>
+
+    </div>
+    <section id="music">
+      <div class="containerx">
+        <h2 class="section head">
+          <i class="fas fa-music"></i>
+          Music
+        </h2>
+        <h2 class="sechead2">45 million songs. Zero ads.</h2>
+        <h5 class="para2">Stream over 45 million songs, ad-free. Or download albums and tracks to listen to offline. 
+          All the music in your personal myTunes library — no matter where it came from — lives right alongside the Orange Music catalog. Start your free three-month trial with no commitment, and 
+          cancel anytime.</h5>
+          <button class="btn btn-danger">Start you trail now</button>
+          <p class="para3">Orange Music is available in myTunes, and for iOS and Android devices.</p>
+          <img class="img1"src="mytunesbg2.png">
+
+      </div>
+    </section>
+    <section id="sec2">
+      <div class="container">
+        <h2>A world of entertainment. Available wherever you are.</h2>
+        <p class="para4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem veniam nobis, nisi ut expedita, 
+          doloribus reprehenderit explicabo non velit repellat alias saepe inventore repellendus? Molestias suscipit 
+          eos tempora? Quae quaerat cumque in veritatis impedit dolorum sapiente recusandae minima quo aperiam quam, 
+          excepturi quasi totam ad quas? Ipsam laudantium soluta delectus!</p>
+      </div>
+    </section>
+
+    <section id="sec3">
+      <div class="containery">
+        <img class="img3" src="mytunesbg4.png">
+
+        <h3 class="sechead3">Gift Cards</h3>
+        <p class="para5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque expedita tempore quasi omnis a 
+          aut et totam illo fuga accusamus dolorum vero, ut harum consectetur. Minima molestias officiis culpa non sed 
+          dicta itaque. Et aliquam illo obcaecati molestias veritatis porro.</p>
+          <p class="para6">Already have an Orange MyTunes Music Gift Card?</p>
+         <a href="#" class="text-secondary">
+           <i class="fas fa-chevron-right"></i>
+           Redeem
+         </a>
+        </div>
+    </section>
+
+      <div class="footer">
+        
+        <div class="container">
+          <div class="row">
+            <div class="col-sm">
+              <ul class="l1">
+                <li style="text-decoration: underline; padding-bottom: 20px;">Shop & Learn</li>
+                
+                
+                <li>
+                  <a href="#">Music</a>
+                </li>
+                <li>
+                  <a href="#">Movies</a>
+                </li>
+                <li>
+                  <a href="#">Shows</a>
+                </li>
+                <li>
+                  <a href="#">Apps</a>
+                </li>
+                <li>
+                  <a href="#">Gift Cards</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm">
+              <ul class="l1">
+                <li style="text-decoration: underline;  padding-bottom: 20px;">Orange Store</li>
+                <li>
+                  <a href="#">Find a Store</a>
+                </li>
+                <li>
+                  <a href="#">Today at Orange</a>
+                </li>
+                <li>
+                  <a href="#">Orange Camp</a>
+                </li>
+                <li>
+                  <a href="#">Financing</a>
+                </li>
+                <li>
+                  <a href="#">Order Status</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm">
+              <ul class="l1">
+                <li style="text-decoration: underline;  padding-bottom: 20px;">Education & Business</li>
+                <li>
+                  <a href="#">Education</a>
+                </li>
+                <li>
+                  <a href="#">Shop For College</a>
+                </li>
+                <li>
+                  <a href="#">Orange & Business</a>
+                </li>
+                <li>
+                  <a href="#">Shop For Business</a>
+                </li>
+                <li>
+                  <a href="#">Jobs</a>
+                </li>
+            </div>
+            <div class="col-sm">
+              <ul class="l1">
+                <li style="text-decoration: underline;  padding-bottom: 20px;">About Orange</li>
+                <li>
+                  <a href="#">Newsroom</a>
+                </li>
+                <li>
+                  <a href="#">Orange Leadership</a>
+                </li>
+                <li>
+                  <a href="#">Investors</a>
+                </li>
+                <li>
+                  <a href="#">Events</a>
+                </li>
+                <li>
+                  <a href="#">Contact Orange</a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+        
+      </div>
+      
+    
+
+  </div>
+  
+    
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
